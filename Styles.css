@@ -1,0 +1,63 @@
+
+/* make sizing predictable */
+*{
+  box-sizing: border-box;
+}
+
+.user_input{
+  background-color: rgb(240,242,242);
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0 0;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+  font-size: 16px;
+  text-align: left;
+}
+
+
+.bloque_principal{
+  background : #070745;
+  margin: 0;
+  min-height: 100vh; /* center on screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.bloque_secundario{
+  background : #163b58;
+  padding: 24px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid rgba(0,0,0,0.6);
+  width: 360px; /* fixed form width so inputs/buttons match */
+}
+/*
+*{
+    box-sizing: border-box;
+}*/
+.title{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.Botones{
+  background-color: #1e90ff;
+  border: none;
+  padding: 12px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  border-radius: 6px;
+}
+.Bt:hover{
+  background-color : red;
+  cursor : pointer;
+  transition: 1s;
+}
