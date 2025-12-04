@@ -1,5 +1,6 @@
 
 /* make sizing predictable */
+
 *{
   box-sizing: border-box;
 }
@@ -60,4 +61,44 @@
   background-color : red;
   cursor : pointer;
   transition: 1s;
+}
+
+/* Estilos de Google Fuentes */
+.kedebideri-regular {
+  font-family: "Kedebideri", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playwrite_medium500 {
+  font-family: "Kedebideri", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kedebideri-semibold {
+  font-family: "Kedebideri", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kedebideri-bold {
+  font-family: "Kedebideri", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playwrite_medium800 {
+  font-family: "Kedebideri", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.kedebideri-black {
+  font-family: "Kedebideri", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+body{
+  background-color: black;
 }
